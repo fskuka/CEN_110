@@ -1,0 +1,12 @@
+﻿Build started 3/31/2017 5:02:57 PM.
+     1>Project "D:\GitHub\CEN_110\Lab\Week_3\Processing Cost\Processing Cost\Processing Cost.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>main.c(11): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : see declaration of 'scanf'
+     1>Done Building Project "D:\GitHub\CEN_110\Lab\Week_3\Processing Cost\Processing Cost\Processing Cost.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.14
