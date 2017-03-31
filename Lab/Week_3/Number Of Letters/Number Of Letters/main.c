@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -16,13 +17,10 @@ int main()
 		text[i] = ch;
 		if (islower(ch)) lowCh++;
 		if (isupper(ch)) uppCh++;
-
 		++i;
 	} while (ch != EOF);
-	
 
 	printf("%d %d", uppCh, lowCh);
-
 	fclose(infile);
 	return 0;
 }
