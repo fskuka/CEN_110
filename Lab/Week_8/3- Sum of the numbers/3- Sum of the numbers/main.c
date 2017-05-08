@@ -21,7 +21,7 @@ int main()
 	printf("%d\n", sum);
 	printA2B(num, a - 1, b - 1);
 	fclose(infile);
-	//getch();
+	// getch();
 	return 0;
 }
 
