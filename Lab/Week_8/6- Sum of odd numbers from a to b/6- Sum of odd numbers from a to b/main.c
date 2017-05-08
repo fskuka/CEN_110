@@ -14,7 +14,7 @@ int main()
 	fscanf(infile,"%d%d", &a, &b);
 	if (a % 2 == 0) a++;
 	printf("%d", sumA2B(a, b));
-	getchar();
+	//getchar();
 	fclose(infile);
 	return 0;
 }
